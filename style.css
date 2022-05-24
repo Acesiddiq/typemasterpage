@@ -1,0 +1,142 @@
+.main{
+    font-family: 'Barlow', sans-serif;;
+display: flex;
+flex-direction: column;
+background-color: #FFFFFF;
+text-align: center;
+row-gap: 20px;
+}
+.logo{
+    float: left;
+   margin-left:20px;
+}
+h1{
+font-family: barlow;
+font-size: 56px;
+line-height: 56px;
+text-transform: uppercase;
+}
+h2{
+    font-family: barlow;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+h3{
+    font-family: barlow;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+p{
+    font-family: barlow;
+font-size: 16px;
+line-height: 26px;
+}
+.order{
+    float: right;
+    background-color: #E8EFF2;
+    width: 133px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right:15px;
+    columns: #162542;
+}
+.order:hover{
+    background-color:#162542;
+    color: #FFFFFF;
+}
+.red{
+    background-color: #F16718;
+    float: left;
+    margin-left:15px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.red:hover{
+    background-color:#FF9B62;
+}
+#release{
+    float: right;
+    margin-right: 15px;
+}
+.icon{
+    border: 20px solid red;
+    background-color: red;
+    border-radius: 10px;  
+}
+.image {
+border-radius: 25px;
+}
+picture{
+    border-radius: 15px;
+}
+.image-keyboard{
+    margin-right:-80px;
+}
+
+#footer{
+    margin-top: 150px;
+    margin-bottom: 25px;
+}
+
+.image-phone-and-keyboard{
+    opacity: 0.4;
+    
+}
+
+
+
+/*Media Queries*/
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  .rgb-backlight-modes{
+      display:none; 
+  }
+  .square-pattern{
+    display:none; 
+}
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+   
+      .tablet-view{
+          display: flex;
+          flex-direction: row;
+          text-align: left;
+          justify-content: flex-start;
+          padding: 10px;
+      } 
+
+      .square-pattern{
+        display:none; 
+    }
+   
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+    .desktop-view{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        margin: 20px;
+    }
+    .sub-desk{
+        display: flex;
+        flex-direction: column;
+    }
+    .order-release{
+        position: absolute;
+        top: 1000px;
+        display: flex;
+        align-items: center;
+    }
+
+    .square-pattern{
+        height: 200px;
+        visibility: visible;
+    }
+}
