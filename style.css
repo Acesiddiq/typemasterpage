@@ -82,8 +82,11 @@ picture{
 
 .image-phone-and-keyboard{
     opacity: 0.4;
+    background-color: red;
     
 }
+
+
 
 
 
@@ -113,6 +116,7 @@ picture{
       .square-pattern{
         display:none; 
     }
+
    
 }
 
@@ -129,8 +133,7 @@ picture{
         flex-direction: column;
     }
     .order-release{
-        position: absolute;
-        top: 1000px;
+        margin-top: 80%;
         display: flex;
         align-items: center;
     }
@@ -138,5 +141,10 @@ picture{
     .square-pattern{
         height: 200px;
         visibility: visible;
+    }
+
+   .descr-text{
+       padding: 30px;
+      margin: 20px;
     }
 }
